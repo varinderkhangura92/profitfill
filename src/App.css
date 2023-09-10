@@ -1,3 +1,5 @@
+/* Add this line to your CSS file */
+@import 'select2/dist/css/select2.min.css';
 .App {
   text-align: center;
 }
@@ -5,6 +7,9 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.select2-container {
+  width: 50%; /* Set the desired width here */
 }
 
 @media (prefers-reduced-motion: no-preference) {
